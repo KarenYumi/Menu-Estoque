@@ -87,7 +87,7 @@ do{
     system("cls");
     printf("\n ---------------------------------------------");
     printf("\n ********** CONTROLE DE ESTOQUE **************");
-    printf("\n ************   ADS - MANHÃ ******************");
+    printf("\n ************   ADS - MANHÃƒ ******************");
     printf("\n   [1] Cadastro de Produtos                   ");
     printf("\n   [2] Pesquisa de Produtos                   ");
     printf("\n   [3] Relatorio dos Itens em Estoque         ");
@@ -95,15 +95,17 @@ do{
     printf("\n   [5] View de Vendas                         ");
     printf("\n   [6] Sair do Sistema                        ");
     printf("\n ---------------------------------------------");
-    printf("\n Escolha a Opção Desejada ");
+    printf("\n Escolha a OpÃ§Ã£o Desejada ");
     scanf("%d",&op);
     fflush(stdin);
 
     switch(op){
         case 1:
+            system("cls");
             cadastro();
             break;
         case 2:
+            system("cls");
             pesquisa();
             break;
 
